@@ -6,7 +6,7 @@ part of 'weather_theme.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$weatherThemeHash() => r'60770fb0eb395bb49b5fd9fa270ae01d4b734775';
+String _$weatherThemeHash() => r'1aec9b08ffd65a0634cc6ec9b3736b8af433098d';
 
 /// See also [WeatherTheme].
 @ProviderFor(WeatherTheme)

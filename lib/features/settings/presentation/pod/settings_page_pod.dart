@@ -6,7 +6,7 @@ part 'settings_page_pod.g.dart';
 
 @riverpod
 bool isDarkThemeSet(IsDarkThemeSetRef ref) {
-  final darkTheme = ref.read(weatherThemeProvider.notifier).getDarkTheme();
+  final darkTheme = getDarkTheme();
   return darkTheme == ref.watch(weatherThemeProvider);
 }
 

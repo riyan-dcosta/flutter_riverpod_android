@@ -6,7 +6,7 @@ part of 'settings_page_pod.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$isDarkThemeSetHash() => r'4e77656478f2b41b74ff7187399074589cb3cfdf';
+String _$isDarkThemeSetHash() => r'a5f97b64e3b317c7ece9024ecfd08265b89c48e9';
 
 /// See also [isDarkThemeSet].
 @ProviderFor(isDarkThemeSet)

@@ -5,15 +5,17 @@ class WeatherEditInputField extends StatelessWidget {
     super.key,
     this.inputDecoration = const InputDecoration(),
     this.readOnly = false,
-  });
+    this.controller,
 
+  });
+final TextEditingController? controller;
   final InputDecoration inputDecoration;
   final bool readOnly;
 
   @override
   Widget build(BuildContext context) {
     return TextField(
-      controller: null,
+      controller: controller,
       focusNode: null,
       undoController: null,
       decoration: inputDecoration,
